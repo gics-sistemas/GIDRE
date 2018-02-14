@@ -1,0 +1,43 @@
+
+; These parameters can be imported into other config files
+; by enclosing the key with % (like %database_user%)
+; Comments start with ';', as in php.ini
+[parameters]
+    database_driver   = pdo_mysqLl
+    database_host     = localhost
+    database_port     = 3306
+    database_name     = portal_ericsson
+    database_user     = root
+    database_password = 1234
+
+
+    database_name_ind = indicadores
+    database_name_app = aplicaciones
+    database_name_prob = problemas
+    database_name_gics = gics
+    database_name_vent = vent_unica
+    database_name_fms = fallas_masivas
+    database_name_entr = entrenamientos
+    database_name_sce = serv_certificados
+    database_name_gre = gestion_reincidencia
+
+    csm_driver        = Intranet\CsmBundle\DBAL\Driver\Informix\Driver
+    csm_odbc          = csm
+    csm_user          = E03965
+    csm_pass          = Annushka05
+
+    oracle_driver     = Intranet\VentUnicaBundle\DBAL\Driver\Odbc\Driver
+    oracle_odbc       = VPREDES
+    oracle_user       = E06980
+    oracle_pass       = aPLICACIONES2013
+
+    mailer_transport  = smtp
+    mailer_host       = localhost
+    mailer_user       =
+    mailer_password   =
+
+    locale            = en
+
+    secret            = intranetEricsson
+
+    manual_user = 'nada'
